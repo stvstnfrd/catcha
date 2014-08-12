@@ -60,7 +60,7 @@ mysql -u root -p -e 'grant all on catch.* to "catch"@"localhost" identified by "
 ```
 
 ##### Create external configuration file 
-If you changed the database name, username, or password you need to edit an external configuration file.
+If you changed the username or password, you need to edit an external configuration file.
 
 NOTE: Do NOT change the database name as there is a bug I just discovered in the Liquibase changesets that hard-codes the schema name to "catch" when dealing with foreign key contstraints.
 
