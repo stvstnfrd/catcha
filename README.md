@@ -24,9 +24,8 @@ If you changed the username or password, you need to edit an external configurat
 
 NOTE: Do NOT change the database name as there is a bug I just discovered in the Liquibase changesets that hard-codes the schema name to "catch" when dealing with foreign key contstraints.
 
-## Run application in development mode
+### Run application in development mode
 ```
-$ grails run-app
+grails run-app
 ```
-
 
