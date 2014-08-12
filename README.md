@@ -1,6 +1,5 @@
 catcha
 ======
-
 Catch-a - Catching annotation
 
 This software was created for the Harvard Library Labs project CATCH (https://osc.hul.harvard.edu/liblab/proj/catch) awarded to Phil Desenne, Martin Schreiner and Paolo Ciccarese
@@ -8,7 +7,6 @@ This software was created for the Harvard Library Labs project CATCH (https://os
 The software was originally written by:
 * Dr. Paolo Ciccarese http://paolociccarese.info
 * Justin Miranda
-
 
 # Getting Started
 
@@ -30,10 +28,5 @@ NOTE: Do NOT change the database name as there is a bug I just discovered in the
 ```
 $ grails run-app
 ```
-
-
-
-
-
 
 
