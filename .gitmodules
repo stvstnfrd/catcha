@@ -1,0 +1,9 @@
+[submodule "annotationframework/AfPersistence"]
+	path = annotationframework/AfPersistence
+	url = https://github.com/annotationframework/AfPersistence.git
+[submodule "annotationframework/AfSecurity"]
+	path = annotationframework/AfSecurity
+	url = https://github.com/annotationframework/AfSecurity.git
+[submodule "annotationframework/AfShared"]
+	path = annotationframework/AfShared
+	url = https://github.com/annotationframework/AfShared.git

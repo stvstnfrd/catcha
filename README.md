@@ -50,17 +50,6 @@ sudo apt-get install mysql-server
 $ git clone https://github.com/annotationsatharvard/catcha.git
 ```
 
-#### Download plugin source code
-It's important that these plugins are located under the `catcha/annotationframework` directory -- they are included as "local plugin" dependencies within the application's BuildConfig.groovy.
-```
-$ cd catcha 
-$ mkdir annotationframework
-$ cd annotationframework
-$ git clone https://github.com/annotationframework/AfPersistence.git
-$ git clone https://github.com/annotationframework/AfSecurity.git
-$ git clone https://github.com/annotationframework/AfShared.git
-```
-
 ##### Create database 
 ```
 mysql -u root -p -e 'create database catch default charset utf8;'
