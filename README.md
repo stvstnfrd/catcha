@@ -73,12 +73,6 @@ mysql -u root -p -e 'grant all on catch.* to "catch"@"localhost" identified by "
 ##### Create external configuration file 
 If you changed the database name, username, or password you need to edit an external configuration file.
 
-NOTE: I needed to rename the file (lowercase 'c') in order to get the application to read this file.
-```
-$ cd Catch
-$ mv Catch-config.properties catch-config.properties
-```
-
 Add the following properties to `catcha/Catch/catch-config.properties`.
 ```
 # Database connection settings
